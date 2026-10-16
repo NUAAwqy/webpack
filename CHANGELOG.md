@@ -1,5 +1,21 @@
 # webpack
 
+## 5.112.1
+
+### Patch Changes
+
+- Rebuild and recheck a lazy barrel in watch when what it defers changes. (by [@aryanraj45](https://github.com/aryanraj45) in [#22699](https://github.com/webpack/webpack/pull/22699))
+
+- Await asynchronous modules that `ProvidePlugin` injects into ES modules. (by [@alexander-akait](https://github.com/alexander-akait) in [#22728](https://github.com/webpack/webpack/pull/22728))
+
+- Keep the digits Firefox lays out a minified CSS percentage with. (by [@alexander-akait](https://github.com/alexander-akait) in [#22718](https://github.com/webpack/webpack/pull/22718))
+
+- Keep minified JavaScript from growing, or from running unlike its source. (by [@alexander-akait](https://github.com/alexander-akait) in [#22717](https://github.com/webpack/webpack/pull/22717))
+
+- Speed up startup, sharing the compile cache with minimizer workers. (by [@xiaoxiaojx](https://github.com/xiaoxiaojx) in [#22706](https://github.com/webpack/webpack/pull/22706))
+
+- Replace `any` with precise types in stats, serializer and dependency typings. (by [@alexander-akait](https://github.com/alexander-akait) in [#22731](https://github.com/webpack/webpack/pull/22731))
+
 ## 5.112.0
 
 ### Minor Changes
